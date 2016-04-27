@@ -23,6 +23,8 @@
     self.window.rootViewController = naVC;
     [self.window makeKeyAndVisible];
     
+    NSLog(@"%@", NSHomeDirectory());
+    
     return YES;
 }
 
